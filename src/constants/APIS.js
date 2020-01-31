@@ -1,0 +1,1 @@
+export const PRODUCTS_API = "https://api.jsonbin.io/b/5e335c4850a7fe418c56cbea"

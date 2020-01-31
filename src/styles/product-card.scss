@@ -1,0 +1,16 @@
+.product-card{
+    background-color: white;
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    
+    &__img{
+        height: 300px;
+    }
+
+    &__title{
+        height: 1.8em;
+        padding: 15px 0px;
+        font-weight: bold;
+    }
+}

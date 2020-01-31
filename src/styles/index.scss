@@ -1,0 +1,34 @@
+@import "./nav-header.scss";
+@import "./products-grid.scss";
+@import "./product-card.scss";
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eeeeee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+// Common styles
+
+.target_btn {
+  background-color: rgb(204, 57, 57);
+  color: white;
+  padding: 15px;
+  font-size: 13px;
+  text-align: center;
+  border: none;
+}
+
+.target_btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
